@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for i in */.git; do (
+  git fetch -p
+
+	echo "############################  "$i"   #############################"
+	cd $i/..; 
+	
+	for branch in $(git branch | sed -e 's/\*/ /g')
+	do
+		git checkout -f "$branch" 
+		git pull origin "$branch"
+	done
+	)
+done
