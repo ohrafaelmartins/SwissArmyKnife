@@ -8,3 +8,5 @@ SwissArmyKnife
 [git-pull-all](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/gitpullall)
 
 [git-pull-origin-gitlab](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/gitlab.sh)
+
+[git-checkout](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/checkout.sh)
