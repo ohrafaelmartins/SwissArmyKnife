@@ -1,4 +1,7 @@
 #!/bin/bash
+
+cd /www
+
 for i in */.git; do (
 	echo ""
 	echo ""
