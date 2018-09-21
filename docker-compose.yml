@@ -1,0 +1,36 @@
+services: 
+  db: 
+    environment: 
+      MYSQL_DATABASE: wordpress
+      MYSQL_PASSWORD: development
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_USER: wordpress
+    image: "mysql:5.7"
+    container_name: development_environment_database
+    restart: always
+    volumes: 
+      - "db_data:/var/lib/mysql"
+  php:
+    build: .
+    container_name: development_environment_php
+    ports:
+     - "80:80"
+     - "443:443"
+    volumes:
+     - development_environment_path:/var/www/html
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=db
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - /sessions
+    links:
+      - db
+version: "3.3"
+volumes: 
+  db_data: ~
