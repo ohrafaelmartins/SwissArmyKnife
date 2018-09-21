@@ -10,3 +10,6 @@ SwissArmyKnife
 [git-pull-origin-gitlab](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/gitlab.sh)
 
 [git-checkout](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/checkout.sh)
+
+[Docker Compose: PHP + PhpMyAdmin + MySql ](https://raw.githubusercontent.com/ohrafaelmartins/SwissArmyKnife/master/docker-compose.yml)
+
