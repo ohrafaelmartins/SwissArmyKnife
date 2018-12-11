@@ -13,3 +13,5 @@ SwissArmyKnife
 
 [Docker Compose: PHP + PhpMyAdmin + MySql ](https://raw.githubusercontent.com/ohrafaelmartins/SwissArmyKnife/master/docker-compose.yml)
 
+[delete_merged_branchs](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/delete_merged_branchs)
+
