@@ -1,17 +1,9 @@
-# SwissArmyKnife
-SwissArmyKnife
+**SwissArmyKnife**
 
-[DayOfWeek](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/DayOfWeek.php)
+Este repositório público serve como um verdadeiro canivete suíço de desenvolvimento, oferecendo diversos trechos de código prontos para serem reaproveitados em diferentes situações. Algumas das funcionalidades incluem:
 
-[git-pull](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/gitpull.sh)
+- Código simples para identificar os dias da semana do meu aniversário
+- Guia para configurar o fuso horário no Linux
+- Ambiente de desenvolvimento PHP padrão com Docker Compose
 
-[git-pull-all](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/gitpullall)
-
-[git-pull-origin-gitlab](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/gitlab.sh)
-
-[git-checkout](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/checkout.sh)
-
-[Docker Compose: PHP + PhpMyAdmin + MySql ](https://raw.githubusercontent.com/ohrafaelmartins/SwissArmyKnife/master/docker-compose.yml)
-
-[delete_merged_branchs](https://github.com/ohrafaelmartins/SwissArmyKnife/blob/master/delete_merged_branchs)
-
+E muito mais.
